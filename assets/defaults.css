@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Libre Baskerville', serif;
+
+font-family: 'Poppins', sans-serif;
+*/
+
+/* HEADER */
+header.header {
+    background: #F4F4F4;
+    padding: 20px 0px;
+}
+
+header.header .nav .logo > img {
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+header.header .nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.header .link a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header.header .link a:hover {
+    color: #11897D;
+}
+
+/* HOME */
+.home {
+    position: relative;
+}
+.home .circle1 {
+    position: absolute;
+    left: -150px;
+    top: -100px;
+}
+.home .circle2 {
+    position: absolute;
+    bottom: -250px;
+    left: 100px;
+}
+
+.home_image_header_left {
+    padding: 0px;
+}
+.home_image_header_left > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_header_right {
+    background-color: #F4F4F4;
+    margin-bottom: 30px;
+    padding: 70px;
+    padding-bottom: 0px;
+}
+
+.home_header_right .col-right {
+    position: relative;
+    height: 100%;
+    max-width: 60%;
+    padding-bottom: 50px;
+}
+
+.home_header_right .col-right > h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 60px;
+    max-width: 50%;
+}
+.home_header_right .col-right > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+}
+.home_header_right .col-right > button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    border: 1px solid #000000;
+    background: transparent;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.home_header_right .col-right > .arrow_down {
+    position: fixed;
+    right: 350px;
+    bottom: 300px;
+}
+
+.section2 {
+    border: 1px solid #11897D;
+    height: 700px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 700px;
+    margin: 150px auto;
+    padding: 100px;
+}
