@@ -248,6 +248,18 @@ header.header .link a:hover {
 }
 
 
+/*
+*
+* ABOUT US
+*
+*/
+.about {
+    position: relative;
+    background: url(/_nuxt/static/about_bg_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12%;
+}
 
 /*  
 *
@@ -260,7 +272,7 @@ footer {
 }
 
 .footer .logo {
-    padding: 70px;
+    padding: 50px;
 }
 
 footer .footer_contact {
