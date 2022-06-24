@@ -2,7 +2,9 @@
 	<header class="header">
         <div class="container nav">
             <div class="logo">
-                <img src="/logo.png" alt="logo">
+                <nuxt-link to="/">
+                    <img src="/logo.png" alt="logo" />
+                </nuxt-link>
             </div>
 
             <div class="link">

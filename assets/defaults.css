@@ -12,7 +12,23 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Poppins', sans-serif;
 */
 
-/* HEADER */
+.container {
+    max-width: 1444px !important;
+}
+
+img.arrow_down {
+    position: fixed;
+    right: 250px;
+    bottom: 250px;
+    z-index: 99;
+    display: none;
+}
+
+/*  
+*
+* HEADER
+*
+*/
 header.header {
     background: #F4F4F4;
     padding: 20px 0px;
@@ -41,7 +57,11 @@ header.header .link a:hover {
     color: #11897D;
 }
 
-/* HOME */
+/*
+*
+* HOME
+*
+*/
 .home {
     position: relative;
 }
@@ -102,11 +122,11 @@ header.header .link a:hover {
     margin-top: 30px;
 }
 
-.home_header_right .col-right > .arrow_down {
-    position: fixed;
-    right: 350px;
-    bottom: 300px;
-}
+/*
+*
+*  CHIMERA CIRCLE
+*
+*/
 
 .section2 {
     border: 1px solid #11897D;
@@ -116,5 +136,187 @@ header.header .link a:hover {
     -webkit-border-radius: 50%;
     width: 700px;
     margin: 150px auto;
+    padding: 150px 150px;
+}
+
+.section2 h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+    font-size: 70px;
+    position: relative
+}
+.section2 h1 img {
+    position: absolute;
+    top: -30%;
+    left: -10%;
+}
+.section2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+
+/*
+*
+*  OUR PROJECTS
+*
+*/
+
+.section3 {
+    background-color: #FAFAFA;
+    padding-top: 100px;
+}
+
+.section3 h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 h1 > img {
+    position: absolute;
+}
+
+.section3 .projects {
+    padding: 100px 0px;
+}
+.section3 .projects div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.section3 .projects div img {
+    height: 450px;
+}
+
+.section4 {
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.section4 > .testimonialsCircle {
+    position: absolute;
+    left: 3%;
+    top: -5%;
+    z-index: 1;
+}
+
+/*
+*
+* TESTIMONIALS
+*
+*/
+
+.testimonials {
+    background-color: #fff;
+    border-radius: 16px;
     padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.testimonials .c-card {
+    border: 1px solid #E9ECF2;
+    border-radius: 16px;
+}
+.testimonials .c-card .content {
+    padding: 20px;
+}
+.testimonials .c-card .content .ceo {
+    font-family: 'Poppins', sans-serif;
+    color: #758090;
+    font-size: 13px;
+}
+.testimonials .c-card .content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.testimonials .c-card .img-circle {
+    padding: 20px;
+}
+
+
+
+/*  
+*
+* FOOTER
+*
+*/
+
+footer {
+    background: #000;
+}
+
+.footer .logo {
+    padding: 70px;
+}
+
+footer .footer_contact {
+    max-width: fit-content;
+    margin-left: auto;
+    text-align: left;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #C8DBD9;
+    margin-bottom: 22px;
+}
+
+footer div.link {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.link a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+footer .politica_link {
+    display: flex;
+    align-items: center;
+}
+
+footer .politica_link a {
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #C8DBD9;
+}
+
+footer .social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+footer .social_icon img {
+    margin-left: 40px;
+}
+
+footer .politica_link_social_icon {
+    padding-top: 100px;
+}
+
+footer .footer_circle {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
 }
