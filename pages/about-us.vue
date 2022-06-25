@@ -28,7 +28,9 @@
                     </div>
 
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col-md-4">
                     <div class="including">
                         <img src="/about1.png" alt="about1">
@@ -58,11 +60,53 @@
                 </div>
             </div>
         </div>
+
+        <div class="about_section2">
+            <div class="row m-0">
+                <div class="col-md-8">
+                    <img class="img1" src="/about_images/1.png" alt="">
+                </div>
+                <div class="col-md-4 p-5 d-flex justify-content-center">
+                    <img class="img2" src="/about_images/2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row m-0 pt-5">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-9">
+                    <img class="img3" src="/about_images/3.png" alt="">
+                </div>
+            </div>
+
+            <div class="row m-0 pt-5">
+                <div class="col-md-6">
+                    <img class="img4" src="/about_images/4.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+
+            <div class="row m-0 pt-5" id="img5">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-8">
+                    <img class="img5" src="/about_images/5.png" alt="">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </template>
 
 <style>
+.about {
+    background: #F4F4F4;
+}
 .about .container {
     position: relative;
 }
@@ -76,7 +120,6 @@
     position: absolute;
     left: -150px;
     top: 30px;
-    width: 50%;
 }
 .about .breadcrumbs {
     font-family: 'Montserrat', sans-serif;
@@ -91,7 +134,6 @@
     font-weight: 400;
     max-width: 50%;
     color: #fff;
-    padding-top: 50px;
     padding-bottom: 200px;
 }
 
@@ -123,5 +165,17 @@
     font-size: 20px;
     color: #000;
     padding: 20px;
+}
+
+.about .about_section2 img {
+    width: 100%;
+}
+
+.about .about_section2 .img2 {
+    padding: 50px;
+}
+
+.about .about_section2 #img5 {
+    margin-top: -25% !important;
 }
 </style>

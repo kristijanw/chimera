@@ -59,6 +59,7 @@ header.header .link a:hover {
 
 header.header .link .nuxt-link-active {
     font-weight: 700;
+    z-index: 1;
 }
 
 header.header .link .nuxt-link-active:before {
@@ -66,5 +67,6 @@ header.header .link .nuxt-link-active:before {
     position: absolute;
     left: 10px;
     top: -25px;
+    z-index: -1;
 }
 </style>
