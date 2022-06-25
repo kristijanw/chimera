@@ -60,3 +60,71 @@ export default {
   name: 'Footer',
 }
 </script>
+
+<style>
+footer {
+    background: #000;
+}
+
+.footer .logo {
+    padding: 50px;
+}
+
+footer .footer_contact {
+    max-width: fit-content;
+    margin-left: auto;
+    text-align: left;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #C8DBD9;
+    margin-bottom: 22px;
+}
+
+footer div.link {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.link a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+footer .politica_link {
+    display: flex;
+    align-items: center;
+}
+
+footer .politica_link a {
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #C8DBD9;
+}
+
+footer .social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+footer .social_icon img {
+    margin-left: 40px;
+}
+
+footer .politica_link_social_icon {
+    padding-top: 100px;
+}
+
+footer .footer_circle {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+}
+</style>
