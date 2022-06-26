@@ -16,9 +16,11 @@
                     <div class="projects">
 
                         <div class="project_item" v-for="(mountain, index) in mountains" :key="index">
-                            <img :src="`${mountain.img_url}`" alt="project">
-                            <div class="title">{{ mountain.title }}</div>
-                            <div class="subtitle">{{ mountain.subtitle }}</div>
+                            <NuxtLink :to="mountain.slug">
+                                <img :src="`${mountain.img_url}`" alt="project">
+                                <div class="title">{{ mountain.title }}</div>
+                                <div class="subtitle">{{ mountain.subtitle }}</div>
+                            </NuxtLink>
                         </div>
 
                     </div>
@@ -31,7 +33,7 @@
 </template>
 
 <script>
-import projects from '~/assets/projects.json'
+import projects from '~/assets/projects.json';
 
 export default {
     data() {
@@ -70,6 +72,9 @@ export default {
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
+.project .projects .project_item a {
+    text-decoration: none;
+}
 .project .projects .project_item {
     width: 49%;
 }
@@ -80,6 +85,7 @@ export default {
 .project .projects .project_item .title {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
+    text-transform: uppercase;
     color: #000;
     font-size: 25px;
     padding-top: 35px;

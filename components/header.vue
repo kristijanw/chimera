@@ -2,15 +2,15 @@
 	<header class="header">
         <div class="container nav">
             <div class="logo">
-                <nuxt-link to="/">
+                <NuxtLink to="/">
                     <img src="/logo.png" alt="logo" />
-                </nuxt-link>
+                </NuxtLink>
             </div>
 
             <div class="link">
-                <nuxt-link to="/about-us">ABOUT US</nuxt-link>
-                <nuxt-link to="/projects">PROJECTS</nuxt-link>
-                <nuxt-link to="/contact">CONTACT</nuxt-link>
+                <NuxtLink to="/about-us">ABOUT US</NuxtLink>
+                <NuxtLink to="/projects">PROJECTS</NuxtLink>
+                <NuxtLink to="/contact">CONTACT</NuxtLink>
             </div>
         </div>
     </header>

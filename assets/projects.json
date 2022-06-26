@@ -1,32 +1,67 @@
 [
     {
-        "id": 1,
-        "title": "VILLA MERITUS",
+        "title": "villa meritus",
+        "slug": "project1",
         "subtitle": "Interior Design",
-        "img_url": "/project1.png"
+        "img_url": "/project1.png",
+        "content": "Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie a iaculis at erat pellentesque adipiscing commodo purus. Sit amet volutpat mauris consequat nunc cradi.",
+        "architect": "Marko Vladovaski",
+        "client": "Marija Meritus",
+        "location": "Opatija, Hrvatska",
+        "date": "November 9, 2021",
+        "category": "House Luxury",
+        "single_img_url": "/single_project1.png"
     },
     {
-        "id": 2,
-        "title": "VILLA MERITUS",
+        "title": "villa meritus",
+        "slug": "project2",
         "subtitle": "Interior Design",
-        "img_url": "/project1.png"
+        "img_url": "/project1.png",
+        "content": "Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie a iaculis at erat pellentesque adipiscing commodo purus. Sit amet volutpat mauris consequat nunc cradi.",
+        "architect": "Marko Vladovaski",
+        "client": "Marija Meritus",
+        "location": "Opatija, Hrvatska",
+        "date": "November 9, 2021",
+        "category": "House Luxury",
+        "single_img_url": "/single_project1.png"
     },
     {
-        "id": 3,
-        "title": "VILLA MERITUS",
+        "title": "villa meritus",
+        "slug": "project3",
         "subtitle": "Interior Design",
-        "img_url": "/project1.png"
+        "img_url": "/project1.png",
+        "content": "Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie a iaculis at erat pellentesque adipiscing commodo purus. Sit amet volutpat mauris consequat nunc cradi.",
+        "architect": "Marko Vladovaski",
+        "client": "Marija Meritus",
+        "location": "Opatija, Hrvatska",
+        "date": "November 9, 2021",
+        "category": "House Luxury",
+        "single_img_url": "/single_project1.png"
     },
     {
-        "id": 4,
-        "title": "VILLA MERITUS",
+        "title": "villa meritus",
+        "slug": "project4",
         "subtitle": "Interior Design",
-        "img_url": "/project1.png"
+        "img_url": "/project1.png",
+        "content": "Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie a iaculis at erat pellentesque adipiscing commodo purus. Sit amet volutpat mauris consequat nunc cradi.",
+        "architect": "Marko Vladovaski",
+        "client": "Marija Meritus",
+        "location": "Opatija, Hrvatska",
+        "date": "November 9, 2021",
+        "category": "House Luxury",
+        "single_img_url": "/single_project1.png"
     },
     {
-        "id": 5,
-        "title": "VILLA MERITUS",
+        "title": "villa meritus",
+        "slug": "project5",
         "subtitle": "Interior Design",
-        "img_url": "/project1.png"
+        "img_url": "/project1.png",
+        "content": "Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Molestie a iaculis at erat pellentesque adipiscing commodo purus. Sit amet volutpat mauris consequat nunc cradi.",
+        "architect": "Marko Vladovaski",
+        "client": "Marija Meritus",
+        "location": "Opatija, Hrvatska",
+        "date": "November 9, 2021",
+        "category": "House Luxury",
+        "single_img_url": "/single_project1.png"
     }
 ]

@@ -8,6 +8,8 @@
                 <img src="/logo_footer.png" alt="logo">
             </div>
 
+            <hr>
+
             <div class="row">
                 <div class="col-md-6">
                     <h2>CHIMERA </h2>
@@ -65,7 +67,12 @@ export default {
 footer {
     background: #000;
 }
-
+footer hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin-bottom: 50px;
+}
 .footer .logo {
     padding: 50px;
 }
