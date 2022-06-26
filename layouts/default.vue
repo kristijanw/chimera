@@ -1,6 +1,8 @@
 <template>
     <div class="app">
 
+        <Intro/>
+
         <div>
             <Header />
         </div>
